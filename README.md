@@ -5,7 +5,7 @@
  - Ввести в терминал docker-compose up -d
  - Ввести в терминале docker exec -it app_notify bash, чтобы войти в контейнер
  - Провести миграции прописав php artisan migrate
- - Создать запись в таблице chats по роуту http://localhost:8000/api/'/user/add,
+ - Создать запись в таблице chats по роуту http://localhost:8000/api/user/add,
         который принимает в себя три параметра {
        "telegram_id": 835465081,
        "message": "Привет!",
