@@ -1,6 +1,6 @@
 <?php
 
-namespace App\Services;
+namespace App\Services\MonitoringService;
 
 interface MonitoringServiceInterface {
     public function check();

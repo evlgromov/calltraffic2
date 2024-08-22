@@ -2,8 +2,8 @@
 
 namespace App\Providers;
 
-use App\Services\MonitoringService;
-use App\Services\MonitoringServiceInterface;
+use App\Services\MonitoringService\MonitoringService;
+use App\Services\MonitoringService\MonitoringServiceInterface;
 use Illuminate\Support\ServiceProvider;
 
 class MonitoringServiceProvider extends ServiceProvider

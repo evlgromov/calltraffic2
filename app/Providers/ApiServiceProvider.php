@@ -3,7 +3,7 @@
 namespace App\Providers;
 
 use App\Services\API\ApiServiceInterface;
-use App\Services\TelegramApiService;
+use App\Services\API\TelegramApiService;
 use Illuminate\Support\ServiceProvider;
 
 class ApiServiceProvider extends ServiceProvider

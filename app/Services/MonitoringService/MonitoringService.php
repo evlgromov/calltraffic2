@@ -1,10 +1,10 @@
 <?php
 
-namespace App\Services;
-
+namespace App\Services\MonitoringService;
 
 use App\Repository\ChatRepositoryInterface;
 use App\Repository\NotificationRepositoryInterface;
+use App\Services\NotificationService\NotificationServiceInterface;
 use Carbon\Carbon;
 
 class MonitoringService implements MonitoringServiceInterface {

@@ -2,8 +2,8 @@
 
 namespace App\Console\Commands;
 
-use App\Services\MonitoringServiceInterface;
 use Illuminate\Console\Command;
+use App\Services\MonitoringService\MonitoringServiceInterface;
 
 class NotifyCommand extends Command
 {
